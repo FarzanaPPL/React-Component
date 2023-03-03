@@ -4,9 +4,10 @@
     margin-top: 65px;
 }
 
-@media (max-width:576px){
+@media (max-width:899px){
     .projects-list-container{
         margin-top: 60px;
+        margin-left: 150px;
     }
     
 }

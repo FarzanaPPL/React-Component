@@ -33,7 +33,7 @@
 
 @media (max-width:576px){
     .sidebar-container{
-        height: 100%;
+        height: 95%;
         margin-top: 0px;
         width:160px
     }
