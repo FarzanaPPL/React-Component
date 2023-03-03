@@ -1,0 +1,95 @@
+.tasks-container{
+    border:2px solid black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.tasks-heading{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table{
+    border:1px solid black;
+    border-collapse:collapse;
+    width:80%;
+}
+.table-row{
+    border:1px solid black;
+    padding-left: 20px;
+    padding-right:50px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table-content{
+    text-align: center;
+}
+.progress-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.progress{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.report-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.work-report{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 40px;
+}
+.submit-button{
+    background-color: var(--primaryColor);
+    color:var(--whiteColor);
+    border-radius: 8px;
+    border-width: 0px;
+    width: 80px;
+    padding: 5px;
+}
+
+@media (max-width:576px){
+    .tasks-container{
+        margin: 5px;
+        padding: 5px;
+    }
+    .tasks-heading{
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    .table{
+        width:20%;
+    }
+    .table-row{
+        padding-left: 5px;
+        padding-right:5px;
+        font-size: 6px;
+    }
+    .progress-container{
+        margin-top: 5px;
+    }
+    .progress{
+        font-size: 10px;
+    }
+    .work-report{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .input{
+        width:20px;
+    }
+    .submit-button{
+        background-color: transparent;
+        border-color: gray;
+        border-radius: 8px;
+        border-width: 1px;
+        width: 60px;
+        font-size: 10px;
+    }
+}

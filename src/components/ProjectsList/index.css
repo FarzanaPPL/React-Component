@@ -1,0 +1,12 @@
+.projects-list-container{
+    background-color:var(--projectsColor);
+    margin-left: 160px;
+    margin-top: 65px;
+}
+
+@media (max-width:576px){
+    .projects-list-container{
+        margin-top: 60px;
+    }
+    
+}

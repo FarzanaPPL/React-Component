@@ -1,0 +1,49 @@
+.coworkers-container{
+    margin-right: 15px;
+    padding: 10px;
+}
+.coworkers{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-top: 30px;
+}
+.coworkers-list-container{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.circle{
+    font-size: 14px;
+    margin-right:10px;
+    color:white
+}
+.coworkers-items{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color:white
+}
+
+@media (max-width:576px){
+    .coworkers-container{
+        margin-right: 25px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .coworkers{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .coworkers-list-container{
+        list-style-type: none;
+        margin-right: 0px;
+    }
+    .circle{
+        font-size: 12px;
+        margin-right:0px;
+    }
+    .coworkers-items{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
